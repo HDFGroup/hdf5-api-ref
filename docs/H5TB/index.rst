@@ -57,3 +57,13 @@ Modification
    H5TBcombine_tables
    H5TBinsert_field
    H5TBdelete_field
+
+
+Query
+^^^^^
+
+.. toctree::
+   :maxdepth: 2
+
+   H5TBget_table_info
+   H5TBget_field_info
