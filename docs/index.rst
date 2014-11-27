@@ -6,6 +6,7 @@ HDF5 API Reference
    :maxdepth: 2
 
    H5IM/index 
+   H5TB/index 
 
 
 Indices and tables
