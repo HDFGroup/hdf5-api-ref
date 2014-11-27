@@ -58,6 +58,17 @@ Modification
    H5TBinsert_field
    H5TBdelete_field
 
+Retrieval
+^^^^^^^^^
+
+.. toctree::
+   :maxdepth: 2
+
+   H5TBread_table
+   H5TBread_records
+   H5TBread_fields_name
+   H5TBread_fields_index
+
 
 Query
 ^^^^^
