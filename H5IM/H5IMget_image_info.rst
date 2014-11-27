@@ -22,3 +22,22 @@ H5IMget_image_info
    :param npals: OUT: The number of palettes associated to the image.
    :return: Returns a non-negative value if successful; otherwise returns \
 	    a negative value.
+
+.. _h5imget_image_info_f:
+
+:strong:`Fortran90 Interface:` ``h5imget_image_info_f``
+
+.. code-block:: fortran
+
+   subroutine h5imget_image_info_f(loc_id, dset_name, width, height, planes, &
+                                   interlace, npals, errcode)
+     implicit none
+     integer(HID_T), intent(IN) :: loc_id            ! file or group identifier 
+     character(LEN=*), intent(IN) :: dset_name       ! name of the dataset 
+     integer(HSIZE_T), intent(INOUT) :: width        ! width of image  
+     integer(HSIZE_T), intent(INOUT) :: height       ! height of image
+     integer(HSIZE_T), intent(INOUT) :: planes       ! color planes
+     integer(HSIZE_T), intent(INOUT) :: npals        ! palettes
+     character(LEN=*), intent(INOUT) :: interlace    ! interlace 
+     integer :: errcode                              ! error code
+   end subroutine h5imget_image_info_f   
