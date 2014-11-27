@@ -35,7 +35,7 @@ H5TBmake_table
 
 .. _h5tbmake_table_f:
 
-:strong:`Fortran90 Interface:` ``h5h5tbmake_table_f``
+:strong:`Fortran90 Interface:` ``h5tbmake_table_f``
 
 .. note::
    ``h5tbmake_table_f`` only creates the table, it does not write data to it.

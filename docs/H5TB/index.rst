@@ -44,3 +44,16 @@ Storage
    H5TBwrite_records
    H5TBwrite_fields_name
    H5TBwrite_fields_index
+
+Modification
+^^^^^^^^^^^^
+
+.. toctree::
+   :maxdepth: 2
+
+   H5TBdelete_record
+   H5TBinsert_record
+   H5TBadd_records_from
+   H5TBcombine_tables
+   H5TBinsert_field
+   H5TBdelete_field
